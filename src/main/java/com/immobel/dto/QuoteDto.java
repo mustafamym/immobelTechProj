@@ -8,6 +8,8 @@ import lombok.Setter;
 public class QuoteDto {
 
     private Long id;
+
     private String text;
+
     private String author;
 }

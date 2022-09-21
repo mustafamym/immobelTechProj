@@ -15,7 +15,10 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-
+/**
+ *
+ * integration test
+ * **/
 public class QuoteControllerTests extends ApplicationTests {
 
     public static final ObjectMapper objectMapper = new ObjectMapper()
