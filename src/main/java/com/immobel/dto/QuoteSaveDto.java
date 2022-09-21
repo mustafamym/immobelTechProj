@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 @AllArgsConstructor
 @NoArgsConstructor
 public class QuoteSaveDto {
-    
+
     @NotNull(message = "Text can't be empty")
     private String text;
 
